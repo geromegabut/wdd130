@@ -1,0 +1,132 @@
+/* Main content */
+:root {
+    --primary-color: #000000;
+    --secondary-color: #beb1a5;
+    --accent1-color: #a24808;
+    --accent2-color: #000000;
+    --heading-font: Georgia, "Times New Roman", serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+/* Universal Selector */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+    color: var(--accent2-color);
+}
+
+/* Header, Main, and Footer */
+header,
+main,
+footer {
+    width: 840px;
+    margin: auto left right;
+}
+
+/* Headings */
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+/* Navigation, Paragraphs, Sections, and Articles */
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    width: 120px;
+    height: auto;
+}
+
+/* Social Media Links */
+.socialmedia a {
+    text-decoration: none;
+}
+
+.socialmedia img {
+    width: 40px;
+    height: auto;
+    alignment-baseline: center;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Hero Heading */
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #fff;
+}
+
+/* Hero Article */
+.hero article {
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    right: 20px;
+    background-color: var(--secondary-color);
+    color: #000;
+    opacity: 0.9;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+    margin: 0 0 10px 10px;
+    border: 2px solid var(--primary-color);
+}
+
+/* Sections */
+section {
+    border: 1px solid var(--accent1-color);
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    border-top: 1px solid var(--accent1-color);
+}
