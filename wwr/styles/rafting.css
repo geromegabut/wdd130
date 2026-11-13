@@ -28,7 +28,7 @@ header,
 main,
 footer {
     width: 840px;
-    margin: auto left right;
+    margin: 0 auto;
 }
 
 /* Headings */
@@ -75,7 +75,6 @@ header img {
 .socialmedia img {
     width: 40px;
     height: auto;
-    alignment-baseline: center;
 }
 
 /* Hero Section */
