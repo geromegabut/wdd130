@@ -80,10 +80,14 @@ header img {
 }
 
 /* Social Media Links */
-.socialmedia a {
-    display: flex inline-table;
+.socialmedia {
+    display: flex;
     justify-content: flex-end;
     gap: 10px;
+}
+
+.socialmedia a {
+    display: inline-block;
 }
 
 .socialmedia img {
