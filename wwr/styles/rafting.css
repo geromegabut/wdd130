@@ -101,6 +101,12 @@ header img {
     position: relative;
 }
 
+.hero h1 {
+    position: absolute;
+    color: #ffffff;
+    text-align: center;
+}
+
 .hero img {
     display: block;
     width: 100%;
@@ -188,5 +194,4 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-top: 1px solid var(--accent1-color);
 }
